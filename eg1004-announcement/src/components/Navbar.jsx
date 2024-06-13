@@ -4,9 +4,9 @@ const logo='logo.png';
 
 const Navbar = () => {
     return (
-        <nav className='nav bg-purple-700 sticky top-0 z-[20] mx-auto flex w-full items-center justify-between' >
-            <img src={logo} alt='EG logo' />
-            <button> Sign In </button>
+        <nav className='nav bg-purple sticky top-0 z-[20] mx-auto flex w-full items-center justify-between p-2 px-10' >
+            <img src={logo} alt='EG logo' className='h-12 mx-auto'/>
+            <button className= 'border border-white rounded-md text-white p-1 px-4 mx-auto'> Sign In </button>
         </nav>
     )
 };

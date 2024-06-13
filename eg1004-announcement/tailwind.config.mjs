@@ -3,6 +3,12 @@ export default {
 	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
 	theme: {
 		extend: {},
+        colors: {
+            'purple': '#57068c',
+            'white': '#ffffff',
+            'gray': '#F5F5F5',
+            'grayer': '#dbdbdb',
+        },
 	},
 	plugins: [],
 }
