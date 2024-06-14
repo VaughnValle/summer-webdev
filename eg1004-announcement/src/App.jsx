@@ -8,7 +8,7 @@ const App = () => {
     return(
         <>
         <Navbar />
-        <div className='flex mx-auto p-5 w-90'>
+        <div className='flex mx-auto p-5 w-100'>
             <Sidebar />
             <Main />
         </div>
