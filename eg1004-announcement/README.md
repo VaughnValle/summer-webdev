@@ -1,6 +1,6 @@
 # Week 1: Recreate the Legacy EG Poly Website 
-
-[![Website link](/public/thumb.png) 'Website'](https://eg.vaughnv.com)
+## Live Demo
+[![Website link](public/thumb.png)](https://eg.vaughnv.com)
 
 ## 🚀 Project Structure
 
