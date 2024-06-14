@@ -4,7 +4,7 @@ import AnnounceCard from './AnnounceCard.jsx';
 
 const Main = () => {
     return (
-        <div className='mx-auto mt-6 w-6/12 flex-column items-center justify-center text-black'>
+        <div className='mx-auto ml-10 mt-6 w-6/12 flex-column items-center justify-center text-black'>
             <div className='mb-10 max-w-3xl text-left'> 
                 <h1 className='text-2xl'>Welcome to General Engineering 1004</h1>
             </div>
