@@ -15,9 +15,9 @@ Inside the project, you'll see the following folders and files:
 └── package.json
 ```
 
-`/src/App.jsx` contains the main React component
-`/src/pages/index.astro` is the entrypoint for the whole website/webapp
-`/src/components` contains all the React components used
+* `/src/App.jsx` contains the main React component
+* `/src/pages/index.astro` is the entrypoint for the whole website/webapp
+* `/src/components` contains all the React components used
 
 ## 🧞 Commands
 
