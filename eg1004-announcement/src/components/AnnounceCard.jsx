@@ -11,7 +11,7 @@ const Card = ({
             <div className='bg-purple p-4 py-2 pb-1 rounded-md rounded-b-none'>
                 <h5 class='mb-2 text-lg font-light tracking-tight text-black dark:text-white'>{title}</h5>
             </div>
-            <p class='font-light p-4 leading-10'>{content}</p>
+            <p class='font-light p-4 whitespace-pre-line'>{content}</p>
             <footer className='bg-gray border-t border-grayer p-4'><p><strong>Posted on:</strong> {date} at {time}</p></footer>
         </div>
 
