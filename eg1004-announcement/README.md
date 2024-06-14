@@ -1,6 +1,5 @@
 # Week 1: Recreate Legacy EG Poly Website 
 
-
 ## 🚀 Project Structure
 
 Inside the project, you'll see the following folders and files:
@@ -9,10 +8,16 @@ Inside the project, you'll see the following folders and files:
 /
 ├── public/
 ├── src/
+│   └── App.jsx
 │   └── pages/
-│       └── index.astro
+│   │   └── index.astro
+│   └── components/
 └── package.json
 ```
+
+`/src/App.jsx` contains the main React component
+`/src/pages/index.astro` is the entrypoint for the whole website/webapp
+`/src/components` contains all the React components used
 
 ## 🧞 Commands
 
