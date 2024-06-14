@@ -9,7 +9,16 @@ const Card = ({
             <div className='bg-purple p-4 pl-2 py-1 pb-0 rounded-md rounded-b-none'>
                 <h5 class='mb-2 text-lg font-thin tracking-tight text-black dark:text-white'>{title}</h5>
             </div>
-            <p class='font-normal p-2'>{content}</p>
+            <ul className=''>
+                {content.map((link, index) => (
+                    index === content.length - 1 ?
+                    <li className='text-blackish px-3 py-1 pt-1 hover:bg-gray cursor-pointer'>{link}</li>
+                    
+                    :
+                    <li className='text-blackish border-b border-grayer px-3 py-1 pt-0 hover:bg-gray cursor-pointer'>{link}</li>
+                ))}
+            </ul>
+
         </div>
 
     )
